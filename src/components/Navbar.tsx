@@ -54,7 +54,7 @@ export default function Navbar() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <Image
-                    className="h-10 w-full cursor-pointer"
+                    className="hidden sm:flex h-10 w-full cursor-pointer"
                     src={sgiLogo}
                     alt="Synergreens International Logo"
                     width={2400}

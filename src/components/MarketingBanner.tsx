@@ -28,16 +28,18 @@ export default function MarketingBanner() {
         />
       </div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-        <p className="text-sm leading-6 text-green-950">
+        <p className="flex flex-row items-center text-sm leading-6 text-green-950">
           <strong className="font-semibold">Summer Sale 2024</strong>
-          <svg
-            viewBox="0 0 2 2"
-            className="mx-2 inline h-0.5 w-0.5 fill-current"
-            aria-hidden="true"
-          >
-            <circle cx={1} cy={1} r={1} />
-          </svg>
-          Get 20% discount for every purchase of ₱7,863.00 and above.
+          <span className="flex-row items-center hidden sm:flex">
+            <svg
+              viewBox="0 0 2 2"
+              className="mx-2 inline h-0.5 w-0.5 fill-current"
+              aria-hidden="true"
+            >
+              <circle cx={1} cy={1} r={1} />
+            </svg>
+            Get 20% discount for every purchase of ₱7,863.00 and above.
+          </span>
         </p>
         <a
           href="#"

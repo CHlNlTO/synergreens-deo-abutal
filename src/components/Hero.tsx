@@ -47,7 +47,7 @@ export default function Hero() {
       <div className="flex w-full pl-12 pr-12 lg:pl-0 lg:pr-0 justify-start lg:justify-center">
         <AnimatedButton>Explore Products</AnimatedButton>
       </div>
-      <div className="mt-32 sm:mt-28 md:mt-24 lg:mt-10">
+      <div className="mt-10">
         <FloatingPhone />
       </div>
     </motion.div>

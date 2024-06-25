@@ -7,6 +7,7 @@ import product1 from "@/assets/product-1.jpeg";
 import product2 from "@/assets/product-2.png";
 import product3 from "@/assets/product-3.png";
 import product4 from "@/assets/product-4.jpeg";
+import { ImageSlider } from "./ImageSlider";
 
 // const FloatingPhone = () => {
 //   return (
@@ -62,13 +63,15 @@ const HeaderBar = () => {
 const Screen = () => {
   return (
     <div className="relative z-0 grid h-full w-full place-content-center overflow-hidden rounded-[20px] bg-white">
-      <Image
+      {/* <Image
         className="relative flex h-full w-full cursor-pointer object-contain"
         src={personPortrait}
         alt="Synergreens International Logo"
         width={2400}
         height={1620}
-      />
+      /> */}
+
+      <ImageSlider />
 
       <button className="absolute bottom-4 left-4 right-4 z-10 rounded-lg border-[1px] bg-white py-2 text-sm font-medium text-green-600 backdrop-blur">
         Talk with me

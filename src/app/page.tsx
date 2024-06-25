@@ -12,6 +12,8 @@ import { RevealLinks } from "@/components/RevealLinks";
 import { RevealText } from "@/components/RevealText";
 import Navbar from "@/components/Navbar";
 import Example from "@/components/FloatingPhone";
+import { ImagesSlider } from "@/components/ui/image-slider";
+import { ImageSlider } from "@/components/ImageSlider";
 
 export default function Home() {
   return (
@@ -25,7 +27,6 @@ export default function Home() {
       <Contact />
       <Companies />
       <RevealLinks />
-      <Example />
       <Footer />
     </div>
   );

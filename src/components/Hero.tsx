@@ -20,14 +20,16 @@ export default function Hero() {
         duration: 0.8,
         ease: "easeInOut",
       }}
-      className="relative w-full flex flex-col gap-4 items-center justify-start pt-24 sm:pt-36"
+      className="relative w-full flex flex-col gap-4 items-center justify-start pt-24 md:pt-36"
     >
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-5 w-full">
-        <div className="col-span-1 text-4xl md:text-7xl text-green-800 font-black uppercase flex text-start justify-start sm:text-end sm:justify-end items-start">
-          <span className="pl-12 pr-12 sm:pl-0 sm:pr-0">Live long</span>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-1 lg:gap-5 w-full">
+        <div className="col-span-1 text-4xl md:text-7xl lg:text-7xl text-green-800 font-black uppercase flex text-start justify-start lg:text-end lg:justify-end items-start">
+          <span className="pl-12 pr-12 lg:pl-0 lg:pr-0 bg-clip-text text-transparent bg-gradient-to-br from-green-600 to-green-900">
+            Live long
+          </span>
         </div>
         <div
-          className="col-span-1 text-5xl md:text-7xl text-green-800 font-black uppercase text-start"
+          className="col-span-1 text-4xl md:text-7xl lg:text-7xl text-green-800 font-black uppercase text-start"
           style={{
             WebkitTextStrokeWidth: "1px",
             WebkitTextStrokeColor: "rgb(22, 101, 52)",
@@ -37,12 +39,11 @@ export default function Hero() {
           <RevealText />
         </div>
       </div>
-      <div className="text-xs sm:text-lg md:text-xl font-normal text-gray-950 text-start sm:text-center pl-12 pr-12 sm:pl-0 sm:pr-0 mx-0 sm:mx-36 md:mx-56">
-        Synergreens International is committed to helping its distributors reach
-        their goals, to providing an innovative environment, and to making a
-        difference.
+      <div className="text-xs md:text-lg lg:text-xl font-normal text-gray-950 text-start lg:text-center pl-12 pr-12 sm:pr-60 md:pr-60 lg:pl-0 lg:pr-0 mx-0 lg:mx-72">
+        Empower Your Wellness Journey. Revitalize with premium supplements for a
+        thriving lifestyle
       </div>
-      <div className="flex w-full pl-12 pr-12 sm:pl-0 sm:pr-0 justify-center">
+      <div className="flex w-full pl-12 pr-12 lg:pl-0 lg:pr-0 justify-start lg:justify-center">
         <AnimatedButton>Explore Products</AnimatedButton>
       </div>
     </motion.div>

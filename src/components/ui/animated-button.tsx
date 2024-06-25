@@ -32,7 +32,7 @@ export function AnimatedButton({
   return (
     <Component
       className={cn(
-        "bg-transparent relative font-medium h-14 w-full sm:w-56 p-[1px] overflow-hidden ",
+        "bg-transparent relative font-medium h-14 w-full sm:w-56 justify-start flex lg:justify-center p-[1px] overflow-hidden ",
         containerClassName
       )}
       style={{
@@ -56,7 +56,7 @@ export function AnimatedButton({
 
       <div
         className={cn(
-          "relative bg-green-900 border border-green-400 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased",
+          "relative bg-gradient-to-br from-green-600 to-green-900 border border-green-400 text-white flex items-center justify-center w-full h-full text-sm antialiased",
           className
         )}
         style={{

@@ -12,7 +12,7 @@ export function RevealText() {
   ];
 
   return (
-    <div className="flex flex-col justify-start items-start mx-12 sm:mx-0">
+    <div className="flex flex-col justify-start items-start mx-12 lg:mx-0">
       <RevealTextAnimation placeholders={placeholders} />
     </div>
   );

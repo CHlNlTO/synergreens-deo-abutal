@@ -5,16 +5,24 @@ import Testimonials from "@/components/Testimonials";
 import Stats from "@/components/Stats";
 import Companies from "@/components/Companies";
 import Footer from "@/components/Footer";
+import { AuroraBackground } from "@/components/ui/aurora-background";
+import { RevealLinks } from "@/components/RevealLinks";
+import { RevealText } from "@/components/RevealText";
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <div>
-      <Hero />
+      <AuroraBackground>
+        <Hero />
+      </AuroraBackground>
       <FeaturedTestimonial />
       <Testimonials />
       <Stats />
       <Contact />
       <Companies />
+      <RevealLinks />
+      <RevealText />
       <Footer />
     </div>
   );

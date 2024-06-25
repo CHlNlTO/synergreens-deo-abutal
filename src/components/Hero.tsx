@@ -9,6 +9,7 @@ import product4 from "@/assets/product-4.jpeg";
 import { motion } from "framer-motion";
 import { AnimatedButton } from "./ui/animated-button";
 import { RevealText } from "./RevealText";
+import FloatingPhone from "./FloatingPhone";
 
 export default function Hero() {
   return (
@@ -39,12 +40,15 @@ export default function Hero() {
           <RevealText />
         </div>
       </div>
-      <div className="text-xs md:text-lg lg:text-xl font-normal text-gray-950 text-start lg:text-center pl-12 pr-12 sm:pr-60 md:pr-60 lg:pl-0 lg:pr-0 mx-0 lg:mx-72">
+      <div className="text-xs md:text-lg lg:text-xl font-normal text-green-900 text-start lg:text-center pl-12 pr-12 sm:pr-60 md:pr-60 lg:pl-0 lg:pr-0 mx-0 lg:mx-72">
         Empower Your Wellness Journey. Revitalize with premium supplements for a
-        thriving lifestyle
+        thriving lifestyle.
       </div>
       <div className="flex w-full pl-12 pr-12 lg:pl-0 lg:pr-0 justify-start lg:justify-center">
         <AnimatedButton>Explore Products</AnimatedButton>
+      </div>
+      <div className="mt-32 sm:mt-28 md:mt-24 lg:mt-10">
+        <FloatingPhone />
       </div>
     </motion.div>
   );

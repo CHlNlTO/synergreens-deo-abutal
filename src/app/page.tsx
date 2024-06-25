@@ -1,3 +1,5 @@
+"use client";
+
 import Hero from "@/components/Hero";
 import Contact from "@/components/Contact";
 import FeaturedTestimonial from "@/components/FeaturedTestimonial";
@@ -9,6 +11,7 @@ import { AuroraBackground } from "@/components/ui/aurora-background";
 import { RevealLinks } from "@/components/RevealLinks";
 import { RevealText } from "@/components/RevealText";
 import Navbar from "@/components/Navbar";
+import Example from "@/components/FloatingPhone";
 
 export default function Home() {
   return (
@@ -22,7 +25,7 @@ export default function Home() {
       <Contact />
       <Companies />
       <RevealLinks />
-      <RevealText />
+      <Example />
       <Footer />
     </div>
   );
